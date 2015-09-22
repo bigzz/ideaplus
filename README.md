@@ -1,4 +1,4 @@
-# ideaplus
+# ideaPlus
 
 #### 内存碎片化检测工具
 
