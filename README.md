@@ -15,4 +15,8 @@ Android 最近跑 monkey 老报内存碎片化严重导致 android 重启的问�
 
 
 #### gpufreq是否可以与cpufreq 互相平衡？
+可能有一种情形：例如nba2k14,在投篮后篮球与篮框接触的瞬间，可能需要大量的碰撞检测等计算，这部分可能把loading转嫁到cpu了，而gpu的loading一下子降低到了极低，因而gpufreq会降低到很低的水平；而等cpu计算完成后，gpu又不能快速将gpufreq拉起来，导致游戏卡顿。
 
+
+#### Hotplug后migration加速?
+hotplug后cpu的频率处于一个较低的状态，是否需要锁定来提高migration的效率？
