@@ -20,3 +20,8 @@ Android 最近跑 monkey 老报内存碎片化严重导致 android 重启的问�
 
 #### Hotplug后migration加速?
 hotplug后cpu的频率处于一个较低的状态，是否需要锁定来提高migration的效率？
+
+
+#### CPU Freq/CPU Hotpulg 参数 Tunning 工具
+
+实现一个apk 和 某个同平台的配置文件，给到测试组同时根据特定的场景tunning 一组合适的参数用于基本配置数据，然后进行功耗测试。
