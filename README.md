@@ -29,3 +29,7 @@ hotplug后cpu的频率处于一个较低的状态，是否需要锁定来提高m
 
 #### Perf Event 结合systrace前端
 整合systrace与perf event，协助分析性能问题。
+
+
+#### 如何绕过r7 plus不能进入fastboot的问题？
+
