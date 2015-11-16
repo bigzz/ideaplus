@@ -40,3 +40,5 @@ vendor部分从手机提取。
 #### m86 merge with cm
 
 #### BSP阶段借助Top 50 游戏来tunning cpu/gpu/mem 参数。
+
+#### CPU Params Tunning App
