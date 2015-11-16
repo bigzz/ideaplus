@@ -31,14 +31,10 @@ hotplug后cpu的频率处于一个较低的状态，是否需要锁定来提高m
 整合systrace与perf event，协助分析性能问题。
 
 
-#### 如何绕过r7 plus不能进入fastboot的问题？
-
-#### cm构建代码的方法
-vendor部分从手机提取。
-
-
-#### m86 merge with cm
-
-#### BSP阶段借助Top 50 游戏来tunning cpu/gpu/mem 参数。
+#### Office Code Merge With CM/AOSP.
+1. Merge kernel and how to build.
+2. Merge device code.
+3. Merge Vendor code.
 
 #### CPU Params Tunning App
+BSP阶段使用top 100 game tunning params.
