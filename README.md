@@ -45,3 +45,8 @@ hotplug后cpu的频率处于一个较低的状态，是否需要锁定来提高m
 5. Play network video
 6. Record Step 2 to 5 FPS/CPU FREQ/GPU FREQ/Temperature.
 7. Goto Step 1 set other params.
+
+
+#### Kernel Memory Leak Monitor
+
+Record every module memory usage.
