@@ -50,3 +50,10 @@ hotplug后cpu的频率处于一个较低的状态，是否需要锁定来提高m
 #### Kernel Memory Leak Monitor
 
 Record every module memory usage.
+
+
+#### Android Kernel Memory Defragment.
+
+1. use zram/swap function.
+2. write page to disk.
+3. read page.
