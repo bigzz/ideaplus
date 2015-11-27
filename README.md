@@ -37,4 +37,11 @@ hotplug后cpu的频率处于一个较低的状态，是否需要锁定来提高m
 3. Merge Vendor code.
 
 #### CPU Params Tunning App
-BSP阶段使用top 100 game tunning params.
+
+1. Setting one params
+2. Run Game
+3. Record 4K video
+4. Play 4K video
+5. Play network video
+6. Record Step 2 to 5 FPS/CPU FREQ/GPU FREQ/Temperature.
+7. Goto Step 1 set other params.
